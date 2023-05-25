@@ -1,15 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        String myString = "attackatdawn";
-        String encoded = Scytale.encode(myString, 3);
-
+        String myString = "ATTACKATDAWNABCXYZ";
+        String encoded = Caesar.encode(myString, 3);
         System.out.println(encoded);
 
-        String decoded = Scytale.decode(encoded, 3);
-        System.out.println(decoded);
+        Caesar.brute_force(encoded);
 
-        Scytale.brute_force("AFNFNBNGGEEARINNISAGFOU");
 
         }
     }

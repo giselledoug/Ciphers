@@ -1,3 +1,5 @@
+//Scytale is a transposition cipher from wrappng a message around a pole, the key is the radius of the pole
+
 public class Scytale {
 
     //encodes a message using Scytale cipher
